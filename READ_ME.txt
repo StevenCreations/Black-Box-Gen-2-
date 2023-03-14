@@ -14,15 +14,21 @@ Open source software:
 
 
 light_pin                        	=   8;       // Arduino out_pin (lights)  
-humidifier_pin               	= 10;       // Arduino out_pin (Accessory/humidifier)
-ozone            		= 11;       // Arduino out_pin (ozone genartor/air pump- water purification)
-const short int   door_pin                =   6;       // Arduino inout pin for door ajar sensor
+humidifier_pin               	        =  10;       // Arduino out_pin (Accessory/humidifier)
+ozone            		        =  11;       // Arduino out_pin (ozone genartor/air pump- water purification)
+const short int   door_pin              =   6;       // Arduino inout pin for door ajar sensor
 
-valve_1pin              = 3;                  // Air system valves ( Should use NORMALLY CLOSED VALVES, 12v )
+valve_1pin              = 3;                         // Air system valves ( Should use NORMALLY CLOSED VALVES, 12v )
 valve_2pin              = 4;        
 valve_3pin              = 5;     
 
-DHT22 ( default sensor type )  	= digital pin 2;
+DHT22 ( default sensor type )  	        = digital pin 2;
+
+
+google pin out for adafruit- OLED screne 4 pin:  i2C version OLED .96 inch dsp  ( use this specific OLED DSP ) 
+
+SDA = A4
+SCL = A5
 
 
 -------------------------------------------------------------------------------------------------------------------------------
