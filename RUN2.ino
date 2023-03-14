@@ -6,7 +6,7 @@
 // Working proof of concept             - Demo release  
 //
 // Date:        3.6.0 - release 4/20/2019
-// Written by:  Steven Andrews II       - 490 lines. 
+// Written by:  Steven Andrews II       - 503 lines. 
 //
 // Development discontinued as of (2020) 
 // Published to public:                   03/15/2024
